@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32516.85
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "PRS-upr4", "PRS-upr4\", "{20585DA5-768B-4A5B-A470-8C1F14030213}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_65440"
+		Debug.AspNetCompiler.PhysicalPath = "PRS-upr4\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_65440\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_65440"
+		Release.AspNetCompiler.PhysicalPath = "PRS-upr4\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_65440\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "65440"
+		SlnRelativePath = "PRS-upr4\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOAPapp", "..\SOAPapp\SOAPapp\SOAPapp.csproj", "{20A534F1-AD82-474C-9C15-AC7919E10337}"
+	ProjectSection(ProjectDependencies) = postProject
+		{20585DA5-768B-4A5B-A470-8C1F14030213} = {20585DA5-768B-4A5B-A470-8C1F14030213}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{20585DA5-768B-4A5B-A470-8C1F14030213}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20585DA5-768B-4A5B-A470-8C1F14030213}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20585DA5-768B-4A5B-A470-8C1F14030213}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{20585DA5-768B-4A5B-A470-8C1F14030213}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{20A534F1-AD82-474C-9C15-AC7919E10337}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20A534F1-AD82-474C-9C15-AC7919E10337}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20A534F1-AD82-474C-9C15-AC7919E10337}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20A534F1-AD82-474C-9C15-AC7919E10337}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8B0872CB-A6DF-41F1-ADD1-4A45C688B183}
+	EndGlobalSection
+EndGlobal
